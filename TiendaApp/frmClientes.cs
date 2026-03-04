@@ -111,7 +111,7 @@ namespace TiendaApp
 
         private void btnEliminar_Click_1(object sender, EventArgs e)
         {
-            // 1. Verificamos que se haya seleccionado un cliente
+            
             if (string.IsNullOrWhiteSpace(txtId.Text))
             {
                 MessageBox.Show("Primero debes seleccionar un cliente de la tabla para poder eliminarlo.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
